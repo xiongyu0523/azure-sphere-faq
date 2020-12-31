@@ -136,7 +136,7 @@ Yes but restricted. There're two types of file supported on Azure Sphere OS and 
 
 ### Does Azure Sphere support external interrupt?
 
-No, as of 20.08 OS update 1, Azure Sphere MT3620 does not support external pin interrupt on either A7 or M4.
+Yes. start from 20.10 OS, external pin interrupt is supported on M4 core. Here is an [example](https://github.com/MediaTek-Labs/mt3620_m4_software/tree/master/MT3620_M4_Sample_Code/FreeRTOS/MT3620_RTApp_FreeRTOS_EINT) in Mediatek M4 sample code repo.
 
 ### Can I use CA7 Debug UART (Pin 94-97 of MT3620) in my appliation to print debug messages?
 
